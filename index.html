@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Voice Complaint System</title>
+
+  <!-- Link CSS -->
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <h1>🎤 Voice Complaint System</h1>
+
+  <p>Click the button and speak your complaint</p>
+
+  <!-- Start Button -->
+
+<button onclick="startListening()">Start Speaking</button>
+
+<br><br>
+
+  <!-- Display Spoken Text -->
+
+  <h3>Your Complaint:</h3>
+  <p id="output">Waiting for input...</p>
+
+  <br>
+
+  <!-- Audio Response -->
+
+  <h3>System Response:</h3>
+  <audio id="audioPlayer" controls></audio>
+
+  <!-- Link JavaScript -->
+
+  <script src="script.js"></script>
+
+</body>
+</html>
