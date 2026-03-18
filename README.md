@@ -117,5 +117,5 @@ This project demonstrates how **voice can act as a primary interface** to bridge
 
 ## 👨‍💻 Author
 
-Your Name
+MEDARI BHANU PRASAD
 Hackathon Project – Murf AI Voice Application
